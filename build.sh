@@ -1,3 +1,4 @@
+mkdir build
 cd src/
-javac -d ../ *.java
+javac -d ../build *.java
 cd ..
