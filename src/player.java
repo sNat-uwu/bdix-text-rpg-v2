@@ -16,6 +16,8 @@ public class player{
   public int GP;
   public String ATTACK1;
   public String ATTACK2;
+  //quantity of lv1, lv2, lv3 pots (((currently)))
+  public int[] inventory = {0, 0, 0};
   //Constructor
   public player(String n, int lv, int x, int st, int d, int sp, double lk,
                 int mh, int h, int g, String c, String a1, String a2){
