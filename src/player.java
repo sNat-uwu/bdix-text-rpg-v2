@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+import java.util.ArrayList;
 public class player{
   //Fields
   public int NEXTXP;
@@ -17,7 +18,7 @@ public class player{
   public String ATTACK1;
   public String ATTACK2;
   //quantity of lv1, lv2, lv3 pots (((currently)))
-  public int[] inventory = {0, 0, 0};
+  public ArrayList<Item> inventory = new ArrayList<Item>();
   //Constructor
   public player(String n, int lv, int x, int st, int d, int sp, double lk,
                 int mh, int h, int g, String c, String a1, String a2){
